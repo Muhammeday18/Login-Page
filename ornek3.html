@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ornek3.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to Our Application</h1>
+                <p>Please login to use the platform</p>
+            </div>
+            <form class="login-form" autocomplete="off">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="emailForm">Enter Email</label>
+                        <input type="text" id="emailForm">
+                    </div>
+                    <div class="form-item">
+                        <label for="passwordForm">Enter Password</label>
+                        <input type="password" id="passwordForm">
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMeCheckbox" checked>
+                            <label class="checkboxLabel" for="rememberMeCheckbox">Remember me</label>
+                        </div>
+                    </div>
+                    <button type="submit">Sign In</button>
+                </div>
+                <div class="login-form-footer">
+                    <a href="#">
+                        <img width="30"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png">
+                        Facebook Login
+                    </a>
+                    <a href="#">
+                        <img width="30"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU">
+                        Google Login
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="login-right">
+            <img src="./image.svg" alt="image">
+        </div>
+    </div>
+</body>
+</html>
